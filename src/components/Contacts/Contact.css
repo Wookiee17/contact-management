@@ -1,0 +1,214 @@
+@media only screen and (max-width: 650px) {
+    /* styles for screens smaller than 600px */
+    .header {
+      height: auto;
+      background-color: aqua;
+      text-align: center;
+      margin-bottom: 10px;
+      /* reduce font size or padding if necessary */
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .add-contact-button {
+        width: auto;
+        height:auto;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 20px;
+        /* font-size: 15px; */
+      }
+      .add-contact-button:hover{
+        background-color: aquamarine;
+      }
+      
+      .contact-form {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        margin: auto;
+        border-radius: 20px;
+        justify-content: center; /* add this */
+        align-items: center; /* add this */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+      }
+      .save-contact-button{
+        width:auto;
+        height: auto;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 20px;
+        margin: 10px;
+        border: none;
+      }
+      .save-contact-button:hover{
+        background-color: rgb(209, 99, 99);
+      }
+    
+
+    .view-contact-buttondiv{
+      margin: 20px;
+    }
+    
+    .view-contact-button{
+        display: block;
+        margin: auto;
+        width: 180px;
+        height: auto;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+
+        /* margin: 10px; */
+    }
+    .view-contact-button:hover{
+        background-color: tomato;
+    }
+    .form-row1{
+        display: flex;
+        flex-direction:row;
+        /* border: 2px solid teal; */
+    }
+    .form-row1>div{
+        display: flex;
+        flex-direction:column;
+        margin: auto;
+
+    }
+    .form-row>input{
+        width:20%;
+        height: 30px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .form-row>input:hover{
+        background-color: rgb(185, 196, 196);
+        color: rgb(24, 7, 7);
+      }
+    
+    /* adjust other styles as needed */
+  }
+  
+  @media only screen and (min-width: 650px) {
+    /* styles for screens larger than 600px */
+    .header {
+        height: auto;
+        background-color: aqua;
+        text-align: center;
+        margin-bottom: 20px;
+      /* increase font size or padding if necessary */
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .add-contact-button {
+        width: auto;
+        height:auto;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 20px;
+      }
+      .add-contact-button:hover{
+        background-color: aquamarine;
+      }
+    
+      .contact-form {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        font-weight: bold;
+        margin: auto;
+        border-radius: 20px;
+        /* background-color: blue; */
+        justify-content: center; /* add this */
+        align-items: center; /* add this */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+      }
+      .form-row>input{
+        width:45%;
+        height: 30px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .form-row>input:hover{
+        background-color: rgb(185, 196, 196);
+        color: rgb(24, 7, 7);
+      }
+      
+      .save-contact-button{
+        width: auto;
+        height: auto;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 20px;
+        margin: 10px;
+        border: none;
+      }
+      .save-contact-button:hover{
+        background-color: rgb(209, 99, 99);
+      }
+   
+    .view-contact-buttondiv{
+      margin: 20px;
+    }
+    
+    .view-contact-button{
+        display: block;
+        margin: auto;
+        width: 180px;
+        height: auto;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+
+        /* margin: 10px; */
+    }
+    .view-contact-button:hover{
+        background-color: tomato;
+    }
+    .form-row1{
+        display: flex;
+        flex-direction:row;
+        /* border: 2px solid teal; */
+    }
+    .form-row1>div{
+        display: flex;
+        flex-direction:column;
+        margin: auto;
+
+    }
+
+    /* adjust other styles as needed */
+  }
+  
