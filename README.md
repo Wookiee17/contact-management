@@ -1,3 +1,6 @@
-Project made as a assignment for Taiyo.ai.
+Project  for Taiyo.ai.
+contact management app with Charts and Maps using ReactJS, TypeScript,
+TailwindCSS, React Router v6 and React Query
 Published: 
-https://psr-mathur.github.io/contact-management/
+https://main.d278ru8culdqv0.amplifyapp.com/
+
